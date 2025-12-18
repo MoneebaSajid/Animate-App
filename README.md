@@ -2,6 +2,31 @@
 
 **AniMate** is a professional-grade, browser-based 2D character animation studio that bridges the gap between traditional frame-by-frame artistry and modern Generative AI. Built with a stunning glassmorphism aesthetic and a high-performance rendering engine, AniMate empowers creators to bring their stories to life with ease.
 
+## 🎬 AniMate in Action
+
+<div align="center">
+  <img src="assets/demo/app-demo.gif" alt="AniMate Live Demo" width="800">
+  <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
+</div>
+
+## 📸 Visual Showcase
+
+<div align="center">
+  <img src="assets/screenshots/hero-shot.png" alt="AniMate Main Workspace" width="800">
+  <p><em>The intuitive glassmorphism workspace with multi-layered canvas and timeline.</em></p>
+</div>
+
+<div align="center">
+  <div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="assets/screenshots/ai-generator.png" alt="AI Character Builder" width="380">
+    <img src="assets/screenshots/effects-panel.png" alt="Dynamic Effects Panel" width="380">
+  </div>
+  <p>
+    <span><b>AI Character Builder:</b> Generate reference sheets instantly.</span> &nbsp; | &nbsp; 
+    <span><b>FX Engine:</b> Apply professional filters and shakes.</span>
+  </p>
+</div>
+
 ## 🌟 Overview
 
 The primary hurdle for many aspiring animators is the "blank canvas syndrome." AniMate solves this by integrating the **Google Gemini API** directly into the creative workflow. With the **AI Character Builder**, users can translate complex textual descriptions into clean, vector-style reference sheets, allowing them to focus on motion and storytelling rather than initial character design.
@@ -67,10 +92,10 @@ You will need a Google Gemini API Key. You can obtain one from the [Google AI St
 
 ## 📂 Project Structure
 
-- `src/components/`: Modular React components (Canvas, Timeline, Sidebar, etc.).
-- `src/services/`: Integration with Gemini API and external services.
-- `src/types.ts`: TypeScript interfaces and enums for project-wide state.
-- `src/constants.ts`: Default settings and configuration values.
+- `assets/screenshots/`: Visual assets for documentation.
+- `assets/demo/`: Animated GIFs showcasing features.
+- `src/components/`: Modular React components.
+- `src/services/`: Integration with Gemini API.
 
 ## 📝 License
 
