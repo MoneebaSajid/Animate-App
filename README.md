@@ -5,115 +5,82 @@
 ## 🎬 AniMate in Action
 
 <div align="center">
-  <img src="assets/demo/app-demo.gif" alt="AniMate Live Demo" width="800">
+  <img src="assets/demo/app-demo.gif" alt="AniMate Live Demo" width="850" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
   <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
 </div>
-<div align="center">
-  <img src="assets/demo/Smooth Playback.gif" alt="AniMate Live Demo" width="800">
-  <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
-</div>
-
-<div align="center">
-  <img src="assets/demo/AI Magic.gif" alt="AniMate Live Demo" width="800">
-  <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
-</div>
-
-
 
 ## 📸 Visual Showcase
 
 <div align="center">
-  <img src="assets/screenshots/hero-shot.png" alt="AniMate Main Workspace" width="800">
-  <p><em>The intuitive glassmorphism workspace with multi-layered canvas and timeline.</em></p>
+  <img src="assets/screenshots/hero-shot.png" alt="AniMate Main Workspace" width="850" style="border-radius: 10px; margin-bottom: 20px;">
+  <p><b>The intuitive glassmorphism workspace with multi-layered canvas and timeline.</b></p>
 </div>
 
 <div align="center">
-  <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="assets/screenshots/ai-generator.png" alt="AI Character Builder" width="380">
-    <img src="assets/screenshots/shape_library.png" alt="Dynamic Effects Panel" width="380">
-  </div>
-  <div align="center">
-  <img src="assets/screenshots/music-library.png" alt="Dynamic Music Library" width="800">
-</div>
-  <p>
-    <span><b>AI Character Builder:</b> Generate reference sheets instantly.</span> &nbsp; | &nbsp; 
-    <span><b>FX Engine:</b> Apply professional filters and shakes.</span>
-  </p>
+  <table style="border: none; border-collapse: collapse;">
+    <tr>
+      <td style="padding: 10px; border: none;">
+        <img src="assets/screenshots/ai-generator.png" alt="AI Character Builder" width="400" style="border-radius: 8px;">
+        <br><b>AI Character Builder</b>
+      </td>
+      <td style="padding: 10px; border: none;">
+        <img src="assets/screenshots/effects-panel.png" alt="Dynamic Effects Panel" width="400" style="border-radius: 8px;">
+        <br><b>Pixel FX Engine</b>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## 🌟 Overview
 
-The primary hurdle for many aspiring animators is the "blank canvas syndrome." AniMate solves this by integrating the **Google Gemini API** directly into the creative workflow. With the **AI Character Builder**, users can translate complex textual descriptions into clean, vector-style reference sheets, allowing them to focus on motion and storytelling rather than initial character design.
+The primary hurdle for many aspiring animators is the "blank canvas syndrome." AniMate solves this by integrating the **Google Gemini API** directly into the creative workflow. With the **AI Character Builder**, users can translate complex textual descriptions into clean, vector-style reference sheets, allowing them to focus on motion and storytelling.
 
 ## ✨ Key Features
 
 ### 🧠 AI-Assisted Creation
 - **AI Character Builder:** Generate unique 2D character reference sheets from text prompts using Gemini.
-- **In-App Integration:** Import AI-generated characters directly into your current animation frame for tracing or reference.
+- **In-App Integration:** Import AI-generated characters directly into your current animation frame.
 
 ### 🎞️ Animation Engine
-- **Pro Timeline:** A high-precision timeline supporting frame duplication, deletion, and drag-and-drop reordering.
-- **Onion Skinning:** Advanced visualization of previous (Red) and next (Green) frames to assist in smooth "in-betweening."
+- **Pro Timeline:** High-precision timeline with duplication, deletion, and drag-and-drop reordering.
+- **Onion Skinning:** Advanced visualization of previous (Red) and next (Green) frames for smooth in-betweening.
 - **Real-time Playback:** Variable FPS controls (1-60 FPS) with instant previewing.
 
-### 🎨 Creative Tools
-- **Versatile Toolbox:** Includes Pen, Eraser, Move/Transform, and Text tools.
-- **Transform Controls:** Scale, rotate, and reposition layers with a dedicated transformation HUD.
-- **Glassmorphism UI:** A sleek, responsive interface designed to maximize creative focus.
-
-### 🎬 Dynamic Effects & Export
-- **Pixel FX Engine:** Apply timeline-aware effects like **Camera Shake**, **Bounce Animation**, and **RGB Glitch**.
-- **Batch Processing:** Apply filters (Grayscale, Sepia, Blur, etc.) to a single frame or the entire animation at once.
-- **Production Export:** Render your masterpiece to high-quality **WebM video** files directly in the browser.
-- **Audio Sync:** Upload and synchronize soundtracks with your animation loops.
+### 🎨 Creative Tools & Effects
+- **Versatile Toolbox:** Pen, Eraser, Move/Transform, and Text tools.
+- **Pixel FX Engine:** Apply timeline-aware effects like **Camera Shake**, **Bounce**, and **RGB Glitch**.
+- **Production Export:** Render your masterpiece to high-quality **WebM video** files.
+- **Audio Sync:** Upload and synchronize soundtracks with your animation.
 
 ## 🛠️ Technical Stack
 
-- **Framework:** [React 19](https://react.dev/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Icons:** [Lucide React](https://lucide.dev/)
-- **AI Integration:** [@google/genai](https://www.npmjs.com/package/@google/genai)
+- **Framework:** React 19 (Modern Hooks & Context)
+- **Styling:** Tailwind CSS (Custom Glassmorphism UI)
+- **AI Integration:** @google/genai (Gemini 2.5 Flash)
 - **Rendering:** HTML5 Canvas API & MediaRecorder API
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-You will need a Google Gemini API Key. You can obtain one from the [Google AI Studio](https://aistudio.google.com/).
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/animate.git
-   cd animate
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Create a `.env` file in the root directory and add your API key:
-   ```env
-   API_KEY=your_gemini_api_key_here
-   ```
-
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
+1.  **Obtain API Key:** Get your key from [Google AI Studio](https://aistudio.google.com/).
+2.  **Clone & Install:**
+    ```bash
+    git clone https://github.com/your-username/animate.git
+    cd animate
+    npm install
+    ```
+3.  **Environment Setup:** Add `API_KEY=your_key` to your `.env` file.
+4.  **Launch:** `npm run dev`
 
 ## 📂 Project Structure
 
-- `assets/screenshots/`: Visual assets for documentation.
-- `assets/demo/`: Animated GIFs showcasing features.
-- `src/components/`: Modular React components.
-- `src/services/`: Integration with Gemini API.
+*   `assets/`: Screenshots and Demo GIFs.
+*   `src/components/`: Modular UI components (Canvas, Timeline, Modals).
+*   `src/services/`: Gemini API integration logic.
+*   `src/types.ts`: TypeScript interfaces for project state.
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ---
 *Made with ❤️ by Moneeba Developer*
