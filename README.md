@@ -24,7 +24,7 @@
         <br><b>AI Character Builder</b>
       </td>
       <td style="padding: 10px; border: none;">
-        <img src="assets/screenshots/shape-library.png" alt="Shape Library Panel" width="400" style="border-radius: 8px;">
+        <img src="assets/screenshots/shape_library.png" alt="Shape Library Panel" width="400" style="border-radius: 8px;">
       </td>
       <td style="padding: 10px; border: none;">
         <img src="assets/screenshots/music-library.png" alt="Show music library panel" width="400" style="border-radius: 8px;">
