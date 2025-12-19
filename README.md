@@ -8,6 +8,17 @@
   <img src="assets/demo/app-demo.gif" alt="AniMate Live Demo" width="800">
   <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
 </div>
+<div align="center">
+  <img src="assets/demo/Smooth Playback.gif" alt="AniMate Live Demo" width="800">
+  <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/demo/AI Magic.gif" alt="AniMate Live Demo" width="800">
+  <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
+</div>
+
+
 
 ## 📸 Visual Showcase
 
@@ -19,8 +30,11 @@
 <div align="center">
   <div style="display: flex; justify-content: center; gap: 20px;">
     <img src="assets/screenshots/ai-generator.png" alt="AI Character Builder" width="380">
-    <img src="assets/screenshots/effects-panel.png" alt="Dynamic Effects Panel" width="380">
+    <img src="assets/screenshots/shape_library.png" alt="Dynamic Effects Panel" width="380">
   </div>
+  <div align="center">
+  <img src="assets/screenshots/music-library.png" alt="Dynamic Music Library" width="800">
+</div>
   <p>
     <span><b>AI Character Builder:</b> Generate reference sheets instantly.</span> &nbsp; | &nbsp; 
     <span><b>FX Engine:</b> Apply professional filters and shakes.</span>
