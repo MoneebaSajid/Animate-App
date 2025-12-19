@@ -34,14 +34,17 @@
     </tr>
   </table>
 </div>
-<div align="center">
-  <img src="assets/demo/AI Magic.gif" alt="AniMate Live Demo" width="850" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-  <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
-</div>
+
 <div align="center">
   <img src="assets/demo/Smooth Playback.gif" alt="AniMate Live Demo" width="850" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
   <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
 </div>
+
+<div align="center">
+  <img src="assets/demo/AI Magic.gif" alt="AniMate Live Demo" width="850" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+  <p><em>Experience seamless frame-by-frame animation where actual AI Magic happens.</em></p>
+</div>
+
 ## 🌟 Overview
 
 The primary hurdle for many aspiring animators is the "blank canvas syndrome." AniMate solves this by integrating the **Google Gemini API** directly into the creative workflow. With the **AI Character Builder**, users can translate complex textual descriptions into clean, vector-style reference sheets, allowing them to focus on motion and storytelling.
