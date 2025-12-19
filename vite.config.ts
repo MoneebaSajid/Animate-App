@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
       plugins: [react()],
-          base: './', // Ensures assets are loaded correctly on GitHub Pages
+          base: './', 
 
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
