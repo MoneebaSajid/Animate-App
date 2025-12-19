@@ -24,13 +24,24 @@
         <br><b>AI Character Builder</b>
       </td>
       <td style="padding: 10px; border: none;">
-        <img src="assets/screenshots/effects-panel.png" alt="Dynamic Effects Panel" width="400" style="border-radius: 8px;">
+        <img src="assets/screenshots/shape-library.png" alt="Shape Library Panel" width="400" style="border-radius: 8px;">
+        <br><b>Pixel FX Engine</b>
+      </td>
+      <td style="padding: 10px; border: none;">
+        <img src="assets/screenshots/music-library.png" alt="Show music library panel" width="400" style="border-radius: 8px;">
         <br><b>Pixel FX Engine</b>
       </td>
     </tr>
   </table>
 </div>
-
+<div align="center">
+  <img src="assets/demo/AI Magic.gif" alt="AniMate Live Demo" width="850" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+  <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
+</div>
+<div align="center">
+  <img src="assets/demo/Smooth Playback.gif" alt="AniMate Live Demo" width="850" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+  <p><em>Experience seamless frame-by-frame animation with real-time playback and AI assistance.</em></p>
+</div>
 ## 🌟 Overview
 
 The primary hurdle for many aspiring animators is the "blank canvas syndrome." AniMate solves this by integrating the **Google Gemini API** directly into the creative workflow. With the **AI Character Builder**, users can translate complex textual descriptions into clean, vector-style reference sheets, allowing them to focus on motion and storytelling.
